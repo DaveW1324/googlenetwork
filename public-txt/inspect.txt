@@ -1,11 +1,22 @@
-===---*Inspect Element Clone*---===
+----------------------------------------------------------------------------------------------------
 
-Copy this code and create a bookmark.
+						-=< Inspect Element Clone >=-
 
-Paste this code as the URL. You can name it whatever you want.
 
-Ensure that there are ABSOLUTELY NO spaces or it will not function whatsoever.
+	A very limited way to edit elements of a site you're on if Inspect Element is blocked
 
-javascript:(function() {var script=document.createElement('script');script.src='https://goggles.mozilla.org'+'/webxray.js';script.className='webxray';script.setAttribute('data-lang','en-US');script.setAttribute('data-baseuri','https://goggles.mozilla.org');document.body.appendChild(script);}())
+	Setup: Create a bookmark, copy the provided code and paste it in as the URL (name it whatever you want).
 
-If this doesn't work, notify us.
+
+javascript:(function() {
+	var script=document.createElement('script');
+	script.src='https://goggles.mozilla.org'+'/webxray.js';
+	script.className='webxray';
+	script.setAttribute('data-lang','en-US');
+	script.setAttribute('data-baseuri','https://goggles.mozilla.org');
+document.body.appendChild(script);}())
+
+
+	If this doesn't work, notify a staff member on the discord.
+	
+----------------------------------------------------------------------------------------------------
