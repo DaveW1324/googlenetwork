@@ -1,6 +1,6 @@
 # Google Network
 
-A Modified Titanium Network to be material design and go under the radar for your teachers.
+A Modified Titanium Network to be material design and go under the radar from your teachers.
 
 Initial Release Date: 08/17/2019.
 #### Basic info
